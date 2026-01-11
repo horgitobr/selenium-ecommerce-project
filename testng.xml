@@ -1,0 +1,22 @@
+<suite name="Selenium MiniProject Suite">
+    <test name="Mini Project Tests">
+        <classes>
+            <class name="core.tests.Test1_CreateAccount"/>
+            <class name="core.tests.Test2_SignIn"/>
+            <class name="core.tests.Test3_HoverStyle"/>
+            <class name="core.tests.Test4_SaleProductsStyle"/>
+            <class name="core.tests.Test5_PageFilters"/>
+            <class name="core.tests.Test6_Sorting"/>
+            <class name="core.tests.Test7_ShoppingCartTest"/>
+            <class name="core.tests.Test8_EmptyShoppingCartTest"/>
+
+             <!--<class name="core.tests.Test9_ScreenshotTest"/> -->
+
+</classes>
+        <!--
+       <listeners>
+        <listener class-name="core.listeners.TestListener"/>
+       </listeners>
+       -->
+           </test>
+       </suite>
